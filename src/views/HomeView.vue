@@ -45,7 +45,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             <p class="font-bold text-lg pt-4">- Introduction</p>
             <p class="text-3xl font-semibold pt-4">Product owner, Frontend Developer and<span class="block">Designer, based in Phnom Penh.</span>
             </p>
-            <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> For me willing to learn is key to be mature <span class="text-4xl font-serif">"</span> </p>
+            <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
             <div class="flex pt-4">
               <a href="#2nd"
                 class="p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100 mr-3">Get to
@@ -84,7 +84,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <p class="text-md sm:text-xl md:text-2xl font-semibold pt-7 text-center">Product owner, Frontend Developer and Designer,
         </p>
         <p class="text-md sm:text-xl md:text-2xl font-semibold text-center">Based in Phnom Penh.</p>
-        <p class="text-md text-center"><span class="text-4xl font-serif">"</span>For me willing to learn is key to be mature <span class="text-4xl font-serif">"</span> </p>
+        <p class="text-md text-center"><span class="text-4xl font-serif">"</span>For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
         <div class="flex pt-4 justify-center">
           <a href="#2nd" class="p-3 border border-1 transition duration-100 delay-100 mr-6">Get to Know me</a>
           <a @click="ModalOpen = true"
