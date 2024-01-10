@@ -52,7 +52,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
                 Know me</a>
               <a @click="ModalOpen1 = true"
                 class="cursor-pointer p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100 mr-3">Preview CV</a>
-                <a class="cursor-pointer p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="/MyCV.pdf">Download CV</a>
+                <a class="cursor-pointer p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="/LorChingVeyCV.pdf">Download CV</a>
             </div>
           </div>
           <img class="w-[500px] object-cover bg-transparent rounded-[200px]" src="/TranPhoto.png">
@@ -64,7 +64,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <transition name="modal">
         <div v-if="ModalOpen1" class="fixed left-0 top-0 w-[100vw] h-[100vh] object-cover flex bg-black/50 justify-center items-center">
           <div class="relative p-12 rounded-2xl" ref="modal">
-            <img class="w-full h-screen cursor-pointer" src="/CVsam.png">
+            <img class="w-full h-screen cursor-pointer" src="/PRODUCT.png">
           </div>
         </div>
       </transition>
@@ -91,7 +91,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             class="cursor-pointer py-3 px-6 border border-1 transition duration-100 delay-100">Preview CV</a>
         </div>
         <div class="text-center pt-6">
-        <a class="py-3 px-24 border border-1 transition duration-100 delay-100" href="/MyCV.pdf">Download CV</a>
+        <a class="py-3 px-24 border border-1 transition duration-100 delay-100" href="/LorChingVeyCV.pdf">Download CV</a>
       </div>
       </div>
     </div>
@@ -101,7 +101,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <transition name="modal">
       <div v-if="ModalOpen" class="fixed left-0 top-0 w-[100vw] h-[100vh] flex bg-black/50 justify-center items-center">
         <div class="relative p-12 rounded-2xl shadow-black/100" ref="modal">
-          <img class="w-96" src="/CVsam.png">
+          <img class="w-96" src="/PRODUCT.png">
         </div>
       </div>
     </transition>
